@@ -1,7 +1,9 @@
 fun main(){
-    some("Welcome to this session")
+    some{
+        println("Welcome to the session")
+    }
 }
 
-fun some(message: String){
-    println(message)
+fun some(block : ()-> Unit){
+    block()
 }
