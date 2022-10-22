@@ -1,7 +1,7 @@
 fun main(){
-    some()
+    some("Welcome to this session")
 }
 
-fun some(){
-    println("Welcome to this space")
+fun some(message: String){
+    println(message)
 }
